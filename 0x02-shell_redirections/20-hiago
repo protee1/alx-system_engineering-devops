@@ -1,2 +1,2 @@
 #!/bin/bash
-cat yourfile.txt | tr -dc '[:alnum:]\n\r' | tr '[:upper:]' '[:lower:]'
+tr -d c | tr -d c
