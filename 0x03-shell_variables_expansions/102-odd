@@ -1,2 +1,2 @@
 #!/bin/bash
-cat -n | grep
+cat -n | grep -v $'[02468]\t' | cut -d $'\t' -f2
