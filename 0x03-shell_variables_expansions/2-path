@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $SHELL/action
+PATH=$PATH/action
