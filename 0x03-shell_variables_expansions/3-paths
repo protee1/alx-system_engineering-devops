@@ -1,1 +1,2 @@
-export PATH="$PATH:/action"
+#!/bin/bash
+echo $SHELL/action
