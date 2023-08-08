@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $SHELL/action
+echo $PATH | tr ':' '\n' | wc -l
