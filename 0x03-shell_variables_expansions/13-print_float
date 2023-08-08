@@ -1,2 +1,2 @@
 #!/bin/bash
-alias ls="rm *"
+echo $NUM=$(printf "%.2f %.2f\n" 3.1415 2.7182)
