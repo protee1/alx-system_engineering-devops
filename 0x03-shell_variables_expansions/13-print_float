@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $NUM=$(printf "%.2f %.2f\n" 3.1415 2.7182)
+printf "%0.2f\n" $NUM
